@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+
+
+
+
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px;
+    text-decoration: none;
+}
+
+
+
+.first{
+    display:grid;
+    background-image:url("imgs/1.png");
+    background-size: no-repeat;
+    padding:80px ;
+    
+    }
+
+
+
+ .first > p{
+        color:white;
+        text-align:center;
+ }
+
+
+
+.first > h1{
+           color:white;
+           text-align: center;
+       }
+       
+
+
+ .flex-container > a {
+    text-decoration: none;
+    background:rgb(54, 53, 53);
+    font-size: 20px;
+    padding: 15px;
+    color:white;
+    border:0.5px solid white;
+    margin:20px;
+}
+
+.flex-container > a:hover{
+    background:rgb(155, 153, 153);
+    
+}
+
+/*WEBAPP*/
+
+#webapp{
+    display: flex;
+    gap:40px;
+
+    margin-top: 80px;
+    margin-bottom:80px;
+    padding-bottom:20px;
+    padding-left:20%;
+    padding-right:20%;
+    
+}
+#wh{
+    text-align:center;
+    margin-top:40px;
+    
+    
+}
+
+
+/*ΤΡΕΙΣ ΚΑΡΤΕΣ*/
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    background:rgb(46, 45, 45);
+    padding:40px;
+
+    
+}
+
+.card1 , .card2, .card3{
+    flex: 0 0 100px;
+    position: relative;
+    margin:30px;
+    height: 400px;
+    
+}
+
+#wd{
+    text-align: center;
+}
+
+#wb{
+    text-align: center;
+    margin:20px;
+}
+
+
+/**We handle*/
+
+ .handle{
+     display:flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content:center;
+     
+     position: relative;
+     margin-right: 30px;
+     margin-left:30px;
+     margin-top:80px;
+     margin-bottom: 80px;
+     padding-bottom:20px;
+     padding-left:20%;
+     padding-right: 20%;
+        
+ }  
+ 
+ 
+ #had{
+     margin-bottom:40px;
+ }
+
+/* Boxes in the end*/
+
+.container-boxes{
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    height: 400px;
+    
+}
+
+
+.box1{
+    background:rgb(43, 43, 105);}
+
+ 
+
+.box2{
+    background:rgb(46, 45, 45);}
+
+.pbox{
+margin-bottom:10px;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.hbox{
+    color:white;
+    margin:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*NAV BAR FOOTER*/
+
+
+
+a {
+
+display:flex;
+flex-wrap: nowrap;
+ 
+text-decoration: none;
+padding: 25px;
+
+}
+
+a:hover {
+    background-color: lightblue;}
+
+@media screen and (min-width :768px){
+
+    ul {
+        display:flex;
+        justify-content: space-around;
+    }
+}
+
+li{
+    list-style-type: none;}
+    
+
